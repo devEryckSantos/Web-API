@@ -18,7 +18,7 @@ public class Account {
 
     private String agency;
 
-    @Column(nullable = false, scale = 2, precision =13)
+    @Column(nullable = false ,scale = 2, precision =13)
     private BigDecimal balance;
 
     @Column(name = "additional_limit", scale = 2, precision =13)
